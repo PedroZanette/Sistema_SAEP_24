@@ -1,0 +1,46 @@
+Requisitos Funcionais
+Cadastro de Usuários:
+
+O sistema deve permitir o cadastro de usuários com os seguintes campos: ID, nome e e-mail.
+Deve validar se o e-mail informado é único para evitar duplicidade.
+Gerenciamento de Tarefas:
+
+Os usuários devem poder criar tarefas com os seguintes dados:
+ID da tarefa.
+ID do usuário (criador da tarefa).
+Descrição detalhada da tarefa.
+Nome do setor associado.
+Prioridade (baixa, média ou alta).
+Data de cadastro (gerada automaticamente pelo sistema).
+Status inicial (definido como "a fazer" por padrão).
+Atualização de Tarefas:
+
+O sistema deve permitir que os usuários atualizem o status das tarefas para: "a fazer", "fazendo" ou "pronto".
+O sistema deve permitir a alteração da prioridade das tarefas.
+Visualização de Tarefas:
+
+Os usuários devem conseguir visualizar todas as tarefas cadastradas.
+A listagem de tarefas deve permitir filtros por:
+Nome do setor.
+Prioridade.
+Status.
+Exclusão de Tarefas:
+
+O sistema deve permitir que os usuários excluam apenas as tarefas que foram cadastradas por eles.
+
+Requisitos Não Funcionais
+Portabilidade:
+
+A aplicação deve ser compatível com qualquer servidor web que suporte Node.js e MySQL.
+Compatibilidade:
+
+O sistema deve funcionar adequadamente em navegadores modernos, como Chrome, Firefox e Edge.
+Usabilidade:
+
+A interface deve ser simples, clara e intuitiva, garantindo facilidade de uso mesmo para usuários com conhecimentos básicos de tecnologia.
+Desempenho:
+
+A aplicação deve ser capaz de atender a, no mínimo, 50 usuários simultâneos sem perda de desempenho significativo.
+Segurança:
+
+O sistema deve proteger dados sensíveis dos usuários com criptografia (como senhas) e aplicar boas práticas de segurança contra ataques comuns.

@@ -93,3 +93,129 @@ header {
   justify-content: space-between;
   margin-top: 16px;
 }
+
+
+/*
+:root {
+  --cor-texto: #2d2d2d;  Cinza escuro */
+  /*--cor-fundo: #f3f4f6;  Cinza claro */
+  /*--cor-fundo-destaque: #1e90ff;  Azul vibrante */
+  /*--cor-borda: #1c75d8;  Azul mais escuro */
+  /*--cor-hover: #104e8b;  Azul escuro para hover */
+/* } */
+
+/* body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  margin: 0;
+  line-height: 1.6;
+} */
+
+/* button {
+  background-color: var(--cor-fundo-destaque);
+  color: #ffffff; Texto branco */
+  /* border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--cor-hover);
+} */
+/* 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--cor-fundo-destaque);
+  color: #ffffff; Texto branco */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} */
+/* 
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 20px;
+}
+
+.coluna-dashboard {
+  background-color: #ffffff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.coluna-dashboard:hover {
+  transform: translateY(-5px);
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid var(--cor-borda);
+  border-radius: 8px;
+  padding: 12px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+} */
+
+/* Modal Styles */
+/* .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  width: 320px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.modal-content label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.modal-buttons button {
+  flex: 1;
+  margin: 0 5px;
+} */
